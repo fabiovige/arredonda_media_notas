@@ -3,8 +3,6 @@ $nota = 5.3;
 
 $media = arredondaMedia($nota);
 
-var_dump($media);
-
 function arredondaMedia($nota) {
 
     $tipo = gettype($nota);
